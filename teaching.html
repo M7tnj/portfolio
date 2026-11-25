@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teaching — aDataDoc · Mostafa Tamiminezhad</title>
+<meta name="description" content="aDataDoc: a free nine-session bioinformatics course taught in Persian on YouTube — watch sessions on NCBI, Ensembl, UniProt, AlphaFold, Python, R and a full gene-expression project.">
+<meta name="theme-color" content="#070b14">
+<meta property="og:title" content="Teaching — aDataDoc">
+<meta property="og:description" content="A free bioinformatics course, taught in Persian. Watch the sessions.">
+<meta property="og:image" content="assets/images/og.png">
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+  <noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><span class="mark">MT</span><span class="who">Mostafa <span>Tamiminezhad</span></span></a>
+    <button class="nav-burger" aria-expanded="false" aria-controls="navlinks" aria-label="Toggle navigation menu">☰</button>
+    <nav class="nav-links" id="navlinks" aria-label="Primary">
+      <a href="index.html">Work</a>
+      <a href="story.html">Story</a>
+      <a href="projects.html">Projects</a>
+      <a href="teaching.html" aria-current="page">Teaching</a>
+      <a href="credentials.html">Credentials</a>
+      <a class="nav-cta" href="credentials.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <section class="page-head">
+      <span class="kicker">aDataDoc · Data Doc</span>
+      <h1>I teach the ladder<br>I climb.</h1>
+      <p>A free nine-session bioinformatics course, instructed in Persian on YouTube — from "what is bioinformatics?" to a full gene-expression project in R. The titles stay in their original language because that is where the teaching happened.</p>
+    </section>
+
+    <section class="block" style="padding-top:16px">
+      <div class="block-head reveal">
+        <h2>Watch a session</h2>
+        <p>Real lectures, embeddable right here. Click any card to load the player — nothing loads until you ask.</p>
+      </div>
+      <div class="video-wall" id="videowall"></div>
+      <div class="prov reveal">players load on click via youtube-nocookie.com · full channel at youtube.com/@adatadoc</div>
+    </section>
+
+    <section class="block" style="padding-top:0">
+      <div class="block-head reveal">
+        <h2>The syllabus, as instructed</h2>
+        <p>Hover or focus any session for its full title. Bubble sizes below are honest view counts — a fresh course is a fresh course.</p>
+      </div>
+      <div class="sess-list" id="syllabus"></div>
+    </section>
+
+    <section class="block" style="padding-top:0">
+      <div class="viz reveal" id="viz-syllabus" aria-label="Interactive chart: course sessions as bubbles sized by views"></div>
+      <div class="prov reveal">source · youtube.com/@adatadoc channel page · view counts at harvest time · plus two standalone videos: a diabetes project walkthrough and a Microsoft 365 phishing teardown</div>
+    </section>
+
+    <section class="block" style="padding-top:0">
+      <div class="block-head reveal">
+        <h2>Beyond the syllabus</h2>
+        <p>Standalone videos outside the course arc — a hands-on project and a security explainer.</p>
+      </div>
+      <div class="grid-2" id="extras"></div>
+    </section>
+
+    <section class="block" style="padding-top:0">
+      <div class="card reveal" style="display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap">
+        <div>
+          <h3 style="font-family:var(--disp)">Second teaching generation</h3>
+          <p style="color:var(--dim);font-size:14.5px;max-width:560px">Before aDataDoc there was DL_fall2022 — "our past course for computational biologists: introduction to deep learning, fall 2022". The notebooks are public.</p>
+        </div>
+        <a class="btn primary" href="https://www.youtube.com/@adatadoc" target="_blank" rel="noopener">Watch the course ↗</a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap cols">
+    <div>
+      <b style="color:var(--ink)">Mostafa Tamiminezhad</b><br>
+      <span id="human-line"></span><br>
+      <a href="mailto:tamiminezhad.m@yahoo.com">tamiminezhad.m@yahoo.com</a>
+    </div>
+    <div class="mono" style="text-align:right">
+      static site · vanilla html/css/js · no trackers<br>
+      every number on this site carries its source<br>
+      © <span id="yr"></span> · designed as an instrument, not a template
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

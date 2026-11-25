@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mostafa Tamiminezhad — Computational Biologist · Multi-Modal Data Analytics</title>
+<meta name="description" content="Portfolio of Mostafa Tamiminezhad: bioinformatics, AI in medicine, digital pathology, survival modeling and teaching. From virus genomes to patient outcomes.">
+<meta name="theme-color" content="#070b14">
+<meta property="og:title" content="Mostafa Tamiminezhad — Computational Biologist">
+<meta property="og:description" content="I teach machines to read biology — from virus genomes to patient outcomes.">
+<meta property="og:image" content="assets/images/og.png">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="film" id="film" role="dialog" aria-label="Introductory film — press Escape or the skip button to jump to the portfolio">
+  <canvas id="film-canvas"></canvas>
+  <div class="film-caps">
+    <div class="film-cap"><span class="k">01 · the backyard</span><b>curiosity, before the word for it</b></div>
+    <div class="film-cap"><span class="k">02 · the first craft</span><b>motion design, self-taught</b></div>
+    <div class="film-cap"><span class="k">03 · the convergence</span><b>two languages, one question</b></div>
+    <div class="film-cap"><span class="k">04 · the lens</span><b>teaching the microscope to see</b></div>
+    <div class="film-cap"><span class="k">05 · the call</span><b>88 references → one calibrated subtype</b></div>
+    <div class="film-cap"><span class="k">06 · the outcome</span><b>from cohort → clinic</b></div>
+  </div>
+  <div class="film-title film-cap">
+    <div class="mono-tag">Multi-Modal Data Analytics</div>
+    <h2>MOSTAFA<br>TAMIMINEZHAD</h2>
+    <p class="chain">sequence → subtype → transcript → image → outcome → person</p>
+  </div>
+  <div class="prog"><i id="film-prog"></i></div>
+  <button class="skip" type="button">skip intro · esc</button>
+</div>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><span class="mark">MT</span><span class="who">Mostafa <span>Tamiminezhad</span></span></a>
+    <button class="nav-burger" aria-expanded="false" aria-controls="navlinks" aria-label="Toggle navigation menu">☰</button>
+    <nav class="nav-links" id="navlinks" aria-label="Primary">
+      <a href="index.html" aria-current="page">Work</a>
+      <a href="story.html">Story</a>
+      <a href="projects.html">Projects</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="credentials.html">Credentials</a>
+      <a class="nav-cta" href="credentials.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <section class="hero">
+      <div class="reveal" style="--d:.05s">
+        <span class="kicker">Multi-Modal Data Analytics</span>
+        <h1 class="name">Mostafa<br><span class="grad">Tamiminezhad</span></h1>
+        <p class="headline">I teach machines to read biology — from virus genomes to patient outcomes.</p>
+        <p class="subline">bioinformatics · digital pathology · survival modeling · teaching</p>
+        <div class="chips">
+          <span class="chip c-teal">BK virus → calibrated classifier</span>
+          <span class="chip c-teal">kidney transcriptomics</span>
+          <span class="chip c-amber">500-patient CKD portal</span>
+          <span class="chip c-violet">H&amp;E slides → attention heatmaps</span>
+          <span class="chip c-rose">Persian-language lecturer</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn primary" href="projects.html">Explore the projects</a>
+          <a class="btn ghost" href="story.html">Read the full story →</a>
+        </div>
+      </div>
+      <div class="hero-side reveal" style="--d:.22s">
+        <div class="showcase hero-size">
+          <canvas id="capsid"></canvas>
+          <div class="hud">
+            <span class="mode">COHORT · 500 patients</span>
+            <span class="hint">drag to disturb · ← → to change mode</span>
+          </div>
+        </div>
+        <div class="instrument-info" id="instrument-info"></div>
+      </div>
+    </section>
+
+    <div class="stat-strip reveal" id="stat-strip" style="--d:.34s"></div>
+
+    <section class="block">
+      <div class="block-head reveal">
+        <h2>Featured work</h2>
+        <p>Three artifacts that show the whole ladder: clinical deployment, genomic machine learning, and reproduction-grade transcriptomics.</p>
+      </div>
+      <div class="grid-3" id="featured"></div>
+      <p class="reveal" style="margin-top:22px"><a href="projects.html">All projects, with full metric rows and provenance →</a></p>
+    </section>
+
+    <section class="block">
+      <div class="block-head reveal">
+        <h2>The classifier that learned to see subtypes</h2>
+        <p>Version 2 of the BK polyomavirus pipeline rebuilt preprocessing around explicit k-mer vocabularies and pushed cross-validated balanced accuracy from 0.817 to 0.896 — with the tie honestly disclosed.</p>
+      </div>
+      <div class="viz reveal" id="viz-ladder" aria-label="Interactive chart: model accuracy ladder"></div>
+      <div class="prov reveal">source · BK-Virus-Subtype-Classification README v2.1.0 · LOOCV balanced accuracy · random_state=42 · fig14 publishes decision boundaries of seven model families in the PCA plane</div>
+    </section>
+
+    <section class="block story-band">
+      <div class="block-head reveal">
+        <h2>Eight chapters, one instrument</h2>
+        <p>A backyard full of insects, a bankrupted family business, a coffee roaster's shift, a motion-design freelance career — and the research center where all of it converged.</p>
+      </div>
+      <div class="grid-3">
+        <a class="story-card reveal" href="story.html#ch-2" style="--d:.05s">
+          <span class="ch-year">2018–2019</span>
+          <h3>Medicine admitted, life interrupted</h3>
+          <p>Gold medal in Oman, admission to medicine in the UAE — then the bankruptcy that sent the family home.</p>
+          <span class="go-line">chapter 02 →</span>
+        </a>
+        <a class="story-card reveal" href="story.html#ch-6" style="--d:.12s">
+          <span class="ch-year">2022–2024</span>
+          <h3>Teaching what he wished he'd had</h3>
+          <p>From a poster-session observation to book clubs, a university TA role, and a nine-lecture course in Persian.</p>
+          <span class="go-line">chapter 06 →</span>
+        </a>
+        <a class="story-card reveal" href="story.html#ch-8" style="--d:.19s">
+          <span class="ch-year">horizon</span>
+          <h3>A decision-support knowledge base</h3>
+          <p>The long game: time-to-event frameworks carried all the way into clinical pipelines, at home.</p>
+          <span class="go-line">chapter 08 →</span>
+        </a>
+      </div>
+      <p class="reveal" style="margin-top:22px"><a href="story.html">Read the long way to the lens, all eight chapters →</a></p>
+    </section>
+
+    <section class="block">
+      <div class="block-head reveal">
+        <h2>From the manuscript drawer</h2>
+        <p>Eight publication records — in press, under review, in progress. Three of them define the current edge.</p>
+      </div>
+      <div class="pub-list compact" id="pub-teaser"></div>
+      <p class="reveal" style="margin-top:18px"><a href="credentials.html">The full verified record — publications, awards, certifications →</a></p>
+    </section>
+
+    <section class="block">
+      <div class="block-head reveal">
+        <h2>Channels</h2>
+        <p>Code, credentials, lectures and field notes — each channel is a different surface of the same practice.</p>
+      </div>
+      <div class="grid-3" data-channels></div>
+    </section>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap cols">
+    <div>
+      <b style="color:var(--ink)">Mostafa Tamiminezhad</b><br>
+      <span id="human-line"></span><br>
+      <a href="mailto:tamiminezhad.m@yahoo.com">tamiminezhad.m@yahoo.com</a>
+    </div>
+    <div class="mono" style="text-align:right">
+      static site · vanilla html/css/js · no trackers<br>
+      every number on this site carries its source<br>
+      © <span id="yr"></span> · designed as an instrument, not a template
+    </div>
+  </div>
+</footer>
+
+<noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
+<noscript>
+  <div class="noscript-facts">
+    <h2>Mostafa Tamiminezhad</h2>
+    <p>Computational biologist and AI researcher. Research assistant at the Shiraz Transplant Research Center — multi-modal data integration for precision medicine: deep learning models that fuse medical imaging and genomics to predict disease outcomes.</p>
+    <p>Publications: 8 records (in press · under review · in progress) across cancer genomics, BK polyomavirus, kidney tissue engineering and digital pathology AI.</p>
+    <p>Highlights: BK virus subtype classifier (CV balanced accuracy 0.896) · 8,596 DEGs reproduced from GSE58438 · 500-patient CKD survival portal · 112 VP1 reference sequences · 9-lecture Persian bioinformatics course · Best AI-Driven Startup Idea (Doctor in Pocket) · Gold Medal, National University of Oman Science Fair.</p>
+    <p>Contact: tamiminezhad.m@yahoo.com · github.com/M7tnj · linkedin.com/in/mostafa-tamiminezhad · youtube.com/@adatadoc · instagram.com/oncology.ai · kaggle.com/mostafatamiminezhad · ORCID 0000-0001-7219-7613</p>
+  </div>
+</noscript>
+
+<script type="module" src="assets/js/main.js"></script>
+<script type="module" src="assets/js/showpiece.js"></script>
+<script type="module" src="assets/js/intro.js"></script>
+</body>
+</html>
